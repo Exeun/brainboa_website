@@ -29,16 +29,20 @@ ul {
     font-size: 18px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .hero {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     flex-flow: row nowrap;
     padding-left: 80px;
-    padding-top: 10px;
     padding-bottom: 32px;
     background-color: black;
-    gap: 40px;
+    gap: 42px;
 }
 
 .hero-left {
@@ -78,3 +82,4 @@ img {
     height: auto;
     width: 500px;
 }
+
