@@ -34,10 +34,11 @@ ul {
     justify-content: flex-start;
     align-items: center;
     flex-flow: row nowrap;
-    padding-left: 64px;
-    padding-top: 32px;
+    padding-left: 80px;
+    padding-top: 10px;
     padding-bottom: 32px;
     background-color: black;
+    gap: 40px;
 }
 
 .hero-left {
