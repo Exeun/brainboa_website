@@ -10,7 +10,7 @@ body {
     background-color: #1f2937;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: baseline;
     margin: 0px;
 }
 
@@ -31,8 +31,49 @@ ul {
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    flex-direction: row wrap;
-    padding: 64px;
+    flex-flow: row nowrap;
+    padding-left: 64px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: black;
+}
+
+.hero-left {
+    display: flex;
+    flex-flow: column wrap;
+    width: 523px;
+    height:auto;
+
+}
+
+button {
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.hero-right {
+    flex: 1 1 auto;
+}
+
+img {
+    height: auto;
+    width: 500px;
 }
