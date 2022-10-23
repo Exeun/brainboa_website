@@ -111,13 +111,13 @@ h1 {
 }
 
 .mainbodyimages > a {
-    background-color: #26364b;
-    color: white;
+    background-color: white;
+    color: black;
 } 
 
 .mainbodyimages :hover {
-    background-color: black;
-    color: white;
+    background-color: #e5e7eb;
+    color: black;
 }
 
 .mainbody {
@@ -132,7 +132,7 @@ h1 {
     align-items: center;
     justify-content: center;
     height: 300px;
-    padding: 10px 30px;
+    padding: 50px 30px;
 }
 
 .quotesection>.quote {
@@ -147,4 +147,47 @@ h1 {
     font-size: 20px;
     color: black;
     align-self: flex-end;
+}
+
+.cta-background {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border: #3882f6;
+    border-radius: 10px;
+    color: white;
+    width: 800px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.cta-background > .cta-container > a button {
+    border-color: white;
+    border-style: solid;
+    border: 10px;
+    text-decoration: none;
+}
+
+.cta-text p {
+    line-height: 30%;
+}
+
+.footer {
+    background-color:#1f2937;
+    color: white;
+    height: 70px;
+    width:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
